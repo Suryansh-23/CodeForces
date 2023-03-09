@@ -1,0 +1,72 @@
+# n = int(input())
+# single = {}
+# double = {}
+# all3 = m.inf
+# ab = tuple("AB")
+# bc = tuple("BC")
+# ca = tuple("AC")
+
+# for _ in range(n):
+#     tmp = input().split()
+#     pi, si = int(tmp[0]), tmp[1]
+
+#     if len(si) == 1:
+#         if si in single:
+#             single[si] = min(single[si], pi)
+#         else:
+#             single[si] = pi
+#     elif len(si) == 2:
+#         tmp = tuple(sorted(list(si)))
+#         if tmp in double:
+#             double[tmp] = min(double[tmp], pi)
+#         else:
+#             double[tmp] = pi
+#     else:
+#         all3 = min(pi, all3)
+
+
+# schk = len(single) == 3
+# dchk = []
+# if ab in double and bc in double:
+#     dchk.append(1)
+# if ab in double and ca in double:
+#     dchk.append(2)
+# if bc in double and ca in double:
+#     dchk.append(3)
+# tchk = m.isinf(all3)
+# mixchk = []
+# if "A" in single and bc in double:
+#     mixchk.append(1)
+# if "B" in single and ca in double:
+#     mixchk.append(2)
+# if "C" in single and ab in double:
+#     mixchk.append(3)
+# cost = m.inf
+
+
+# if schk:
+#     cost = min(cost, sum(single.values()))
+# # print(cost)
+# if dchk:
+#     if 1 in dchk:
+#         cost = min(cost, double[ab] + double[bc])
+#     elif 2 in dchk:
+#         cost = min(cost, double[ca] + double[ab])
+#     elif 3 in dchk:
+#         cost = min(cost, double[bc] + double[ca])
+# # print(cost)
+# if tchk:
+#     cost = min(cost, all3)
+# # print(cost)
+# if mixchk:
+#     if 1 in mixchk:
+#         cost = min(cost, single["A"] + double[bc])
+#     if 2 in mixchk:
+#         cost = min(cost, single["B"] + double[ca])
+#     if 3 in mixchk:
+#         cost = min(cost, single["C"] + double[ab])
+
+# if m.isinf(cost):
+#     print(-1)
+# else:
+#     print(cost)

@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"v:\\Comp Prog\\Codeforces\\GDSC Jumpstart '23 R2\\A.py","tests":[{"id":1675350126884,"input":"4\n2 3 4 1\n10000 0 1 2\n500 600 400 300\n0 9999 10000 9998","output":"2\n0\n1\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\GDSC Jumpstart '23 R2\\A.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 58A - Chat Room","url":"v:\\Comp Prog\\Codeforces\\58A - Chat Room.cpp","tests":[{"id":1669644025911,"input":"ahhellllloou","output":"YES"},{"id":1669644041946,"input":"hlelo","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\58A - Chat Room.cpp","group":"local","local":true}

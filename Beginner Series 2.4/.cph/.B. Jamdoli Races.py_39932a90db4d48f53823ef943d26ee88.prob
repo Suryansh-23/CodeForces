@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"v:\\Comp Prog\\Codeforces\\Beginner Series 2.4\\B. Jamdoli Races.py","tests":[{"id":1673887464755,"input":"5\nBABAJUICE\nAMUL\nAMUL\nBABAJUICE\nAMUL\n","output":"AMUL"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\Beginner Series 2.4\\B. Jamdoli Races.py","group":"local","local":true}

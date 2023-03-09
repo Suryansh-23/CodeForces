@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"v:\\Comp Prog\\Codeforces\\Beginner Series 2.5\\B.py","tests":[{"id":1674492465926,"input":"6\n1 2 3 4 5 6","output":"1 5"},{"id":1674492475820,"input":"5\n-5 -3 -1 -4 -7","output":"1 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\Beginner Series 2.5\\B.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: M","url":"v:\\Comp Prog\\Codeforces\\Beginners Contest Y22\\M.cpp","tests":[{"id":1677251086812,"input":"3\n64\n63\n61","output":"0\n2\n60"},{"id":1677251110651,"input":"1\n300","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\Beginners Contest Y22\\M.cpp","group":"local","local":true}

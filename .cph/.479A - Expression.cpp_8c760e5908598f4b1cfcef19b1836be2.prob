@@ -1,0 +1,1 @@
+{"name":"Local: 479A - Expression","url":"v:\\Comp Prog\\Codeforces\\479A - Expression.cpp","tests":[{"id":1669654860146,"input":"1\n2\n3","output":"9"},{"id":1669654870187,"input":"2\n10\n3","output":"60"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\479A - Expression.cpp","group":"local","local":true}

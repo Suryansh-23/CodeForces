@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"v:\\Comp Prog\\Codeforces\\Beginners Contest Y22\\A.py","tests":[{"id":1677238304514,"input":"4\n-1 1 -1 1","output":"YES"},{"id":1677238388444,"input":"4\n0 0 0 0","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\Beginners Contest Y22\\A.py","group":"local","local":true}

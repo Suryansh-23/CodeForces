@@ -1,0 +1,1 @@
+{"name":"Local: e","url":"v:\\Comp Prog\\Codeforces\\GDSC Jumpstart '23\\e.py","tests":[{"id":1674055254159,"input":"5\nakshit 135\nkartik 140\neeshir 135\nsarthak 139\nadi 143","output":"akshit\nadi\neeshir\nkartik\nsarthak"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\GDSC Jumpstart '23\\e.py","group":"local","local":true}

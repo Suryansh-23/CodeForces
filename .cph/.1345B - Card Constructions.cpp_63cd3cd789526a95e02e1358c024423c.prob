@@ -1,0 +1,1 @@
+{"name":"Local: 1345B - Card Constructions","url":"v:\\Comp Prog\\Codeforces\\1345B - Card Constructions.cpp","tests":[{"id":1676985841896,"input":"5\n3\n14\n15\n24\n1","output":"1\n2\n1\n3\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\1345B - Card Constructions.cpp","group":"local","local":true}

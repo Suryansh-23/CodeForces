@@ -1,0 +1,1 @@
+{"name":"Local: 270A - Fancy Fence","url":"v:\\Comp Prog\\Codeforces\\270A - Fancy Fence.cpp","tests":[{"id":1675689099031,"input":"4\n30\n60\n90\n119","output":"NO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\270A - Fancy Fence.cpp","group":"local","local":true}

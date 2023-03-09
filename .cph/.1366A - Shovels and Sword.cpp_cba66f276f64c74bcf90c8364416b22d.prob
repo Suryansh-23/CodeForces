@@ -1,0 +1,1 @@
+{"name":"Local: 1366A - Shovels and Sword","url":"v:\\Comp Prog\\Codeforces\\1366A - Shovels and Sword.cpp","tests":[{"id":1676966796528,"input":"4\n4 4\n1000000000 0\n7 15\n8 7","output":"2\n0\n7\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\1366A - Shovels and Sword.cpp","group":"local","local":true}

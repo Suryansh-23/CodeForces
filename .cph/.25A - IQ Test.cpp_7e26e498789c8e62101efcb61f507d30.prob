@@ -1,0 +1,1 @@
+{"name":"Local: 25A - IQ Test","url":"v:\\Comp Prog\\Codeforces\\25A - IQ Test.cpp","tests":[{"id":1677012206663,"input":"5\n2 4 7 8 10","output":"3"},{"id":1677012223545,"input":"4\n1 2 1 1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"v:\\Comp Prog\\Codeforces\\25A - IQ Test.cpp","group":"local","local":true}
