@@ -58,23 +58,32 @@ inline ll inp_fn() {
     return tmp;
 }
 
-ll gcd(ll a, ll b) {
-    ll r = a % b;
-    while (r != 0) {
-        a = b;
-        b = r;
-        r = a % b;
-    }
-    return b;
-}
-
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    ll n;
+    ll n, ans;
+    vector<ll> a;
+    counter mp;
     tc {
+        ans = 0;
         inp(n);
+        a.resize(n);
+
+        lp(n) {
+            inp(a[i]);
+            mp[a[i] - i]++;
+        }
+
+        for (const auto &[_, v] : mp) {
+            // pr2("#", v);
+            ans += (v * (v - 1)) / 2;
+        }
+
+        pr(ans);
+
+        a.clear();
+        mp.clear();
     }
     return 0;
 }

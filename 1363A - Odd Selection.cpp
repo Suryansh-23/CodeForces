@@ -44,6 +44,7 @@
 
 using namespace std;
 typedef unsigned long long ull;
+typedef pair<int, int> pii;
 typedef long long ll;
 typedef vector<int> vei;
 typedef vector<string> vestr;
@@ -57,60 +58,41 @@ inline ll inp_fn() {
     return tmp;
 }
 
-ll gcd(ll a, ll b) {
-    ll r = a % b, tmp;
-    while (r != 0) {
-        a = b;
-        b = r;
-        r = a % b;
-    }
-    return b;
-}
-
-bool solve(ll i, ll x, ll min) {
-    while (i > 0 && x > 0) {
-        pr2(i, x);
-        x -= (a[i] - min);
-        a.erase(a.begin() + i);
-
-        if (i == 0) {
-            i = a.size() - 1;
-        } else {
-            i = 0;
-        }
-    }
-
-    return x == 0;
-}
-
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    ll n, x, i, min;
-    vei a;
+    int n, x, o, e, tmp;
     tc {
+        o = e = 0;
         inp(n) inp(x);
+
         lp(n) {
-            a.push_back(inp_fn());
+            inp(tmp);
+            if (tmp % 2 == 0)
+                e++;
+            else
+                o++;
         }
 
-        min = a[0];
-        loopi(1, n) {
-            if (a[i] < min)
-                min = a[i];
+        if (o == 0) {
+            no continue;
         }
-
-        x -= min;
-        i = 0;
-        solve(i, x, min);
-        i = 
-        solve(i, x, min);
-
-        if (x == 0) {
-            yes;
+        if (x == n) {
+            if (o % 2 == 0) {
+                no continue;
+            } else {
+                yes continue;
+            }
+        }
+        if (x > e) {
+            if ((x - e) % 2 == 0) {
+                no;
+            } else {
+                yes;
+            }
         } else {
-            no;
+            yes;
         }
     }
     return 0;

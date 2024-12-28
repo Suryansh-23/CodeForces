@@ -1,0 +1,6 @@
+output/
+**.exe
+**.bin
+
+# any file with tmp in name
+**tmp**.**
